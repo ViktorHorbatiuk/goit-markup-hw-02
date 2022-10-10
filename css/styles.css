@@ -10,10 +10,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-body,
-a {
-  color: #212121;
-  text-decoration: none;
+.list-style {
+  list-style-type: none;
 }
 
 .button-design {
@@ -36,21 +34,25 @@ a {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
-.full-name {
+.style-web-studio {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 
-.half-name {
+.style-web {
   color: #2196f3;
+}
+
+.navigation {
+  list-style-type: none;
 }
 
 .navigation .link {
@@ -62,37 +64,46 @@ a {
   color: #2196f3;
 }
 
-ul {
-  list-style-type: none;
-}
-
-footer {
+.footer-style {
   background: #2f303a;
 }
 
-.full-name-two {
+.style-web-two {
   color: #ffffff;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-address {
+.address-style {
   color: #ffffff;
   font-style: normal;
 }
 
-#mail {
+.e-mail-address {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
-#phone {
+.phone-number {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
-h4 {
+.e-mail-address:hover,
+.e-mail-address:focus {
+  color: #2196f3;
+}
+
+.phone-number:hover,
+.phone-number:focus {
+  color: #2196f3;
+}
+
+.category-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -100,10 +111,14 @@ h4 {
   color: #212121;
 }
 
-p {
+.category {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.link {
+  text-decoration: none;
 }
